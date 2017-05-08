@@ -80,14 +80,14 @@ function otherRow(y){
 
 function move(){
     if(mouseIsPressed){
-        
-    } y = y + speedy;
+     y = y + speedy;
     x = x + speedx;
   if(y > height){
         y = 50 - height;
   }
  if(x > width){
    x = 50 - width;  
- } 
+ }    
+    } 
   
 }
